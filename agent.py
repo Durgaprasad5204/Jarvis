@@ -8,7 +8,7 @@ from livekit.plugins import (
 from livekit.plugins import google
 from prompts import AGENT_INSTRUCTION, SESSION_INSTRUCTION
 from tools import get_weather, search_web
-load_dotenv(".env.local")
+load_dotenv(".env")
 
 
 class Assistant(Agent):
